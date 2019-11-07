@@ -63,7 +63,7 @@ h1 {
 }
 
 figure {
-    width: 80%;
+    width: auto;
 }
 #sunset {
     border-radius: 100%;
