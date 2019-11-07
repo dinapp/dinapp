@@ -7,13 +7,18 @@ var problema = ["vai cair sal na sua banana", 'vai cair um balão', 'vai chover 
 var quando_onde = ["na sua frente", 'na sua casa', 'no quintal do vizinho', 'no seu cu', 'na sessao da tarde']
 
 
-var max_r = problema.length - 1
+var max_nf = problema.length - 1,
+    max_q = quando.length - 1,
+    max_p = problema.length - 1,
+    max_qo = quando_onde.length - 1
+
+
 
 function bencaGenerator(){
-    var num1 = Math.floor(max_r * Math.random())
-    var num2 = Math.floor(max_r * Math.random())
-    var num3 = Math.floor(max_r * Math.random())
-    var num4 = Math.floor(max_r * Math.random())
+    var num1 = Math.floor(max_nf * Math.random())
+    var num2 = Math.floor(max_q * Math.random())
+    var num3 = Math.floor(max_p * Math.random())
+    var num4 = Math.floor(max_qo * Math.random())
     return 'não ' + nao_fazer[num1] + ' ' + quando[num2]+' ' + 'senão ' + problema[num3]+' ' + quando_onde[num4]
 }
 

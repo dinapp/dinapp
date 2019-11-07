@@ -1,0 +1,22 @@
+body {
+    background-color: tomato;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+#texto1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+.button {
+    background-color: darkorange;
+    border: deeppink;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    font-size: 16px;
+}
