@@ -1,10 +1,10 @@
 
-var nao_fazer = ['saia de casa', 'compre cenoura', 'jogue boliche', 'coma bolacha negresco', "compre cartão Spotify sem ler"]
-var quando = ['hoje', 'amanhã', 'de noite', 'esse mês', "esta semana"]
+var nao_fazer = ['aposente',"veja o jornal",'compre salame','saia de casa', 'compre cenoura', 'jogue boliche', 'coma bolacha negresco', "compre cartão Spotify sem ler"]
+var quando = ['no natal','hoje', 'amanhã', 'de noite', 'esse mês', "esta semana"]
 
 
-var problema = ["vai cair sal na sua banana", 'vai cair um balão', 'vai chover no seu uno 92', 'vai tomar picada de marimbondo', 'vai passar o filme do power ranger']
-var quando_onde = ["na sua frente", 'na sua casa', 'no quintal do vizinho', 'no seu cu', 'na sessao da tarde']
+var problema = ['vai faltar pastel',"vai quebrar o controle do vhs","vai cair sal na sua banana", 'vai cair um balão', 'vai chover no seu uno 92', 'vai tomar picada de marimbondo', 'vai passar o filme do power ranger']
+var quando_onde = ["na sua vó","na sua frente", 'na sua casa', 'no quintal do vizinho', 'no seu cu', 'na sessao da tarde']
 
 
 var max_nf = problema.length - 1,
