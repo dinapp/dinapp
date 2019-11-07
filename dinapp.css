@@ -38,6 +38,7 @@ h1 {
     text-align: center;
     font-size: 16px;
     transition: background .4s;
+    border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -54,6 +55,7 @@ h1 {
     text-align: center;
     font-size: 16px;
     transition: background .4s;
+    border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 #botao2:hover{
@@ -63,7 +65,9 @@ h1 {
 figure {
     width: 80%;
 }
-
+#sunset {
+    border-radius: 100%;
+}
 #img {
     border-style: dotted;
     border-width: 3px;
