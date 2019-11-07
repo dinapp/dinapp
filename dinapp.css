@@ -60,10 +60,15 @@ h1 {
     background: peru;
 }
 
+figure {
+    width: 80%;
+}
+
 #img {
     border-style: dotted;
     border-width: 3px;
     border-color: lime;
+    width: 100%;
 }
 
 .img_animation{
