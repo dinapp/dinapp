@@ -10,8 +10,10 @@ body {
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
-
 h1 {
+    text-align: center;
+}
+#titulo {
     text-align: center;
     font-family:cursive;
   
@@ -20,7 +22,7 @@ h1 {
 #texto1 {
     text-align: center;
     color: chartreuse;
-    font-family:fantasy ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 
 }
 #titulo{
@@ -67,11 +69,18 @@ figure {
 }
 #sunset {
     border-radius: 100%;
+    color: darkcyan;
+    font-weight: bolder;
+    box-shadow: 2px 4px black;
+}
+#sunset:active{
+    background-color: brown;
 }
 #img {
     border-style: dotted;
     border-width: 3px;
     border-color: lime;
+    border-radius: 30%;
     width: 100%;
 }
 
