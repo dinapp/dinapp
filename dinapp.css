@@ -42,6 +42,7 @@ h1 {
     transition: background .4s;
     border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
 }
 
 #botao1:hover{
@@ -59,6 +60,7 @@ h1 {
     transition: background .4s;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 #botao2:hover{
     background: peru;
@@ -72,6 +74,7 @@ figure {
     color: darkcyan;
     font-weight: bolder;
     box-shadow: 2px 4px black;
+    cursor: pointer;
 }
 #sunset:active{
     background-color: brown;
