@@ -19,12 +19,21 @@ function bencaGenerator(){
     var num2 = Math.floor(max_q * Math.random())
     var num3 = Math.floor(max_p * Math.random())
     var num4 = Math.floor(max_qo * Math.random())
-    return 'não ' + nao_fazer[num1] + ' ' + quando[num2]+' ' + 'senão ' + problema[num3]+' ' + quando_onde[num4]
+    var aux = 'ão ' + nao_fazer[num1] + ' ' + quando[num2]+' ' + 'senão ' + problema[num3]+' ' + quando_onde[num4]
+    aux = aux.toUpperCase()
+    return 'n' + aux
 }
+document.getElementById("botao2").style.display="none"
 
 document.getElementById("botao1").onclick = function() {
     document.getElementById("texto").innerHTML = bencaGenerator()
     this.style.display = "none"
+    document.getElementById("botao2").style.display="block"
+
+}
+
+document.getElementById("botao2").onclick = function() {
+    document.getElementById("texto").innerHTML = bencaGenerator()
 }
 
 
